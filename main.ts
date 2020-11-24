@@ -1,9 +1,9 @@
 input.onButtonPressed(Button.A, function () {
-    A.set(LedSpriteProperty.Direction, 360)
+    A.set(LedSpriteProperty.Direction, 3)
     A.move(1)
 })
 input.onButtonPressed(Button.B, function () {
-    B.set(LedSpriteProperty.X, 360)
+    B.set(LedSpriteProperty.Direction, 3)
     B.move(1)
 })
 let B: game.LedSprite = null
